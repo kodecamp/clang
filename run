@@ -1,0 +1,3 @@
+#!/bin/sh
+# Note : fd adhres to .gitignore file and ignores the files so search-path is needed
+fd --search-path ./src --type file | entr -c ./compile

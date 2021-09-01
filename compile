@@ -1,0 +1,4 @@
+#!/bin/sh
+# Note : fd adhres to .gitignore file and ignores the files so search-path is needed
+gcc ./src/main.c -o ./build/main
+./build/main
